@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venom Hearts</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="16x16"  href="assets/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/logo-Venom-Hearts.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            Venom Hearts</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Le groupe</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Nos concerts
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Dubai</a></li>
+                  <li><a class="dropdown-item" href="#">New York</a></li>
+                  <li><a class="dropdown-item" href="#">Tokyo</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Fan Room</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+              <button class="btn btn-outline-danger" type="submit">Rechercher</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!--breadcrumb-->
+    <nav class="bg-danger" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#" class="link-dark">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Découvrir</li>
+      </ol>
+    </nav>
+
+    <!--carousel autoplaying-->
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1518648562504-d0d6fda97d86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="d-block w-100 img-responsive" style="max-height: 100%;"alt="venom-heart-1">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1632905935985-2d11ff614628?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" class="d-block w-100 img-responsive" style="max-height: 100%;" alt="venom-heart-2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="d-block w-100 img-responsive" style="max-height: 100%;"alt="flamingo-3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!--Membres du groupe-->
+      <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <h1 class="fw-normal">Les membres du groupe</h1>
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"   preserveAspectRatio="xMidYMid slice" focusable="false" width="150vw" height="150vh" alt="stevie">
+            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+            <h2 class="fw-normal">Stevie</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora unde harum, officiis corrupti aut, velit eaque iure nisi placeat illo consequuntur. Assumenda asperiores tenetur, laborum nihil ducimus quaerat commodi repellendus.</p>
+            <p><a class="btn btn-danger" href="#">En savoir plus &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="https://images.unsplash.com/photo-1571310105000-9e021d7db3ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"   preserveAspectRatio="xMidYMid slice" focusable="false" width="150vw" height="150vh" alt="bob">
+            <h2 class="fw-normal">Bob</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum odit nobis modi inventore velit vitae vel sint asperiores facere, recusandae illo est possimus, nihil error nisi consectetur quasi dolor magni.</p>
+            <p><a class="btn btn-danger" href="#">En savoir plus &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="https://images.unsplash.com/photo-1571310100246-e0676f359b42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"   preserveAspectRatio="xMidYMid slice" focusable="false" width="150vw" height="150vh" alt="James">
+            <h2 class="fw-normal">James</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse praesentium dignissimos pariatur soluta explicabo, inventore perspiciatis tempora harum doloremque voluptatem iste commodi nisi voluptates veritatis? Ab similique vero nisi sequi!</p>
+            <p><a class="btn btn-danger" href="#">En savoir plus &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    
+    
+        <!-- START THE FEATURETTES -->
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Venez à nos concerts.<span class="text-danger">Une ambiance qui décoiffe.</span></h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis est pariatur vel ullam dignissimos eum non quod quae dicta quisquam, magni optio harum, libero, alias numquam expedita. Consequatur, repellat laudantium.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="https://images.unsplash.com/photo-1556405903-073dbfbd8132?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1203&q=80" width="500" height="500" class="img-responsive" alt="concert">
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">Chantez avec nous dans une ambiance hard rock. <span class="text-danger">Voyez par vous-même.</span></h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla provident enim magnam expedita nihil rem placeat dolorem sit at, laboriosam ad, est exercitationem? Quasi non quas nesciunt laborum reiciendis.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="https://images.unsplash.com/photo-1597386673712-83fb0ab76ea7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" width="500" height="500" class="img-responsive" alt="concert">
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Découvrez les concerts participatifs. <span class="text-danger">C'est génial !</span></h2>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, quia suscipit repellat incidunt esse voluptatibus fugit. Cupiditate fugit exercitationem, magni labore eveniet, doloribus voluptates minus, veritatis amet fuga eos molestiae.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="https://images.unsplash.com/photo-1566320239266-7a352f8c382a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" width="500" height="500" class="img-responsive" alt="concert">
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+
+      </div><!-- /.container -->
+    
+      <!-- /END THE FEATURETTES -->
+
+
+      <!--footer-->
+
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary">&copy; 2023 Venom Hearts</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-danger">Accueil</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Le groupe</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Nos concerts</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact</a></li>
+          </ul>
+        </footer>
+      </div>
+
+    <!--Script Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
